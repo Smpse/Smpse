@@ -23,6 +23,7 @@ steps:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
     gradleOptions: '-Xmx3072m'
-    publishJUnitResults: false
+    publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'assembleDebug'
+Commit 798a6179: Added README.md, .gitignore (ArchLinuxPackages) filesREADME.mdhttps://github.com/dotnet/docs/issues/37905#issuecomment-1821950717package-lock.jsonmy-name-390215
